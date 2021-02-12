@@ -1,13 +1,12 @@
 # migratedb
-just a Migration Skeleton
-The Sequelize Command Line Interface (CLI)
+The purpose of the thsi application is to learn and understand migration, how to implement and use migrate-db. ypu migrations to keep track of changes to the database. With migrations you can transfer your existing database into another state. 
 
-Table of Contents
-Installation
-Contributing
-Documentation
-Installation
-Make sure you have Sequelize installed. Then install the Sequelize CLI to be used in your project with
+You will need the Sequelize Command-Line Interface (CLI)
+```
+npm install --save-dev sequelize-cli
+
+```
+Make sure you have Sequelize installed.
 
 
 And then you should be able to run the CLI with
@@ -16,10 +15,7 @@ To run the application:<br>
 clone this repo then
 
 cd Migrations
-```
-npm install --save-dev sequelize-cli
 
-```
 run on cmd
 
 ```
